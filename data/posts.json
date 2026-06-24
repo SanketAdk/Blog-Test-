@@ -1,0 +1,32 @@
+[
+  {
+    "id": "thought-on-writing",
+    "title": "A Thought on Writing",
+    "slug": "thought-on-writing",
+    "excerpt": "Writing is thinking made visible. It forces you to articulate ideas clearly.",
+    "content": "Writing is thinking made visible. When you sit down to write, you're forced to articulate ideas clearly and coherently. The blank page is a mirror that reflects the gaps in your thinking.\n\nI've found that writing regularly has made me a clearer thinker. The discipline of putting words on a page, of arranging them in a way that makes sense, is the same discipline required to think deeply about a subject.\n\nStart writing about what you care about. Your unique perspective is valuable.",
+    "date": "2025-06-15",
+    "category": "Writing",
+    "featured": true
+  },
+  {
+    "id": "why-i-blog",
+    "title": "Why I Blog",
+    "slug": "why-i-blog",
+    "excerpt": "Blogging is about sharing ideas and connecting with people who think similarly.",
+    "content": "There are many reasons to maintain a blog. For me, it's a space to think out loud, to share ideas, and to connect with people who find those ideas interesting.\n\nBlogging doesn't require a large audience. It's enough to write for yourself and the handful of people who might stumble upon your thoughts and find them useful.\n\nWhat matters is consistency and authenticity. Write regularly and write what you actually believe in.",
+    "date": "2025-05-20",
+    "category": "Writing",
+    "featured": false
+  },
+  {
+    "id": "first-post",
+    "title": "Welcome",
+    "slug": "welcome",
+    "excerpt": "This is where I share my thoughts on writing, ideas, and whatever else captures my attention.",
+    "content": "Welcome to my writing space. This is a place where I'll be sharing essays and thoughts on various topics that interest me.\n\nI believe in the power of writing to clarify thinking and connect ideas. Each post here represents something I've spent time thinking about.\n\nFeel free to read, think, and reach out if something resonates with you.",
+    "date": "2025-04-10",
+    "category": "Personal",
+    "featured": false
+  }
+]
