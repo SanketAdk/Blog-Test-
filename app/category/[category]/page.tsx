@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps) {
   const categoryName = category.charAt(0).toUpperCase() + category.slice(1);
   
   return {
-    title: `${categoryName} - Essays`,
+    title: `${categoryName} - Emergent Thoughts`,
     description: `Essays in ${categoryName}`,
   };
 }
@@ -31,7 +31,6 @@ export default async function CategoryPage({ params }: PageProps) {
   const { category } = await params;
   const categories = getAllCategories();
   
-  // Find the actual category name (case-insensitive)
   const actualCategory = categories.find(
     c => c.toLowerCase() === category.toLowerCase()
   );
@@ -43,31 +42,31 @@ export default async function CategoryPage({ params }: PageProps) {
   const posts = getPostsByCategory(actualCategory);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-black transition-colors">
       <Header />
 
-      <main className="max-w-2xl mx-auto px-4 pb-16">
+      <main className="max-w-3xl mx-auto px-6 sm:px-8 pb-16">
         {/* Header */}
         <div className="mb-12">
-          <Link href="/" className="text-gray-600 hover:text-black transition text-sm">
+          <Link href="/" className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition text-sm">
             ← Back
           </Link>
-          <h1 className="text-3xl font-bold text-black mt-4 mb-2">{actualCategory}</h1>
-          <p className="text-gray-600">
+          <h1 className="text-4xl font-bold text-black dark:text-white mt-4 mb-2">{actualCategory}</h1>
+          <p className="text-gray-600 dark:text-gray-400">
             {posts.length} {posts.length === 1 ? 'essay' : 'essays'}
           </p>
         </div>
 
         {/* Posts */}
         {posts.length > 0 ? (
-          <div className="space-y-8">
+          <div className="space-y-12">
             {posts.map(post => (
               <PostCard key={post.id} post={post} />
             ))}
           </div>
         ) : (
           <div className="text-center py-12">
-            <p className="text-gray-600">No essays in this category yet.</p>
+            <p className="text-gray-600 dark:text-gray-400">No essays in this category yet.</p>
           </div>
         )}
       </main>
