@@ -1,4 +1,3 @@
-```json
 [
   {
     "id": "my-first-essay",
@@ -11,7 +10,6 @@
     "featured": true
   }
 ]
-```
   {
     "id": "thought-on-writing",
     "title": "A Thought on Writing",
