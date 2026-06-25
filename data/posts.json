@@ -1,13 +1,17 @@
-{
-  "id": "my-first-essay",
-  "title": "What Actually Makes me think",
-  "slug": "my-first-essay",
-  "excerpt": "This is my first essay in this site just testing out with old writing",
-  "content": " This is my full essay.\n\nI can write multiple paragraphs.\n\nJust separate them with double line breaks like this.",
-  "date": "2026-07-24",
-  "category": "Writing",
-  "featured": true
-}[
+```json
+[
+  {
+    "id": "my-first-essay",
+    "title": "What Actually Makes me think",
+    "slug": "my-first-essay",
+    "excerpt": "This is my first essay in this site just testing out with old writing",
+    "content": "As I was reading black swan again the similar realization of Asymmetric return came to mind. About how a lot of thing in life is zero sum and just a fraction better and luck makes all the difference in distribution of wealth, Fame, Power. Person making billion dollar should not necessarily be 1000x more smart or hard working or capable than person making 1 million.\n\nThere might be million singers but just fractionally better singers gets all the attention and listening cause why listen 10% less objectively melodious music when you can listen to the very best.\n\nThe thing about working in unpredictable sector is you might crawl 30 years and in one fine year you will make all the return that you didn't in precious 30 years. This is not typically true for people working in job or something that doesn't have black swan events.\n\nWorld operates in winner take all method in so many way. Also working in a field like investing is a highly leverage field. You can make 1 million or 1 thousand with same insights idea or research.\n\nI think investing is belief changing career. And it's hard to have a hypothesis or belief about something today and immediately change it tomorrow it takes time. So time is a real edge in this field. Also the reason changing a hypothesis too quick is difficult is you need to test it and it requires feedback loop which again requires time and attention over a period of time. You can't force yourself to be highly iterative and functional. You will slowly realize how stupid and dumb you were to invest or trade two years back and you come to this realization with slow feedback.",
+    "date": "2025-06-24",
+    "category": "Writing",
+    "featured": true
+  }
+]
+```
   {
     "id": "thought-on-writing",
     "title": "A Thought on Writing",
