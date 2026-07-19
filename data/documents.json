@@ -1,0 +1,18 @@
+[
+  {
+    "id": "critical-thinking-guide",
+    "title": "The Critical Thinking Guide",
+    "description": "A comprehensive guide on developing critical thinking skills.",
+    "date": "2025-07-13",
+    "category": "Philosophy",
+    "fileUrl": "https://example.com/critical-thinking.pdf"
+  },
+  {
+    "id": "investing-fundamentals",
+    "title": "Investing Fundamentals",
+    "description": "Basic principles and strategies for beginner investors.",
+    "date": "2025-07-10",
+    "category": "Investing",
+    "fileUrl": "https://example.com/investing-fundamentals.pdf"
+  }
+]
